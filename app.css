@@ -68,7 +68,8 @@
 
   .ex-8-img:hover {
     border-radius: 30px;
-    transition: 3s;
+    filter: hue-rotate(90deg) opacity(0.3);    
+    transition: border-radius 3s, filter 3s;
 
   }
 
