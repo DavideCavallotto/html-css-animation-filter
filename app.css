@@ -73,9 +73,15 @@
 
   }
 
-
-
   /* Esercizio-9 */
+
+  .ex-9-img:hover {
+    width: 300px;
+    border-radius: 30px;
+    filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210)) hue-rotate(90deg);
+    transition: border-radius 3s, filter 3s, width 3s;
+
+  }
 
   /* Esercizio-10 */
   
