@@ -68,3 +68,11 @@
     filter: grayscale(1); 
     transition: 2s;   
   }
+
+  /* Esercizio-7 */
+  
+  .ex-7-img:hover {    
+    filter: grayscale(0.8) blur(5px);
+    transition: 2s;
+  }
+  
