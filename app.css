@@ -16,9 +16,16 @@
 
   .ex-3-square:hover {
     border-radius: 50%;
-    transition: bordere-radius 5s;    
+    transition: border-radius 2s;    
   }
 
-  
+  @keyframes .ex-3-square {
+    50% {
+        border-radius: 50%
+    }
+  }
 
+  /* Esercizio-4 */
+
+  
   
