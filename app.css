@@ -100,6 +100,23 @@
   
   /* Esercizio-11 */
 
+  .ex-11-icon:hover {
+    animation: rotation 2s infinite; 
+  }
+
+  @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
   /* Esercizio-12 */
 
   /* Esercizio-13 */
