@@ -18,25 +18,13 @@
     border-radius: 50%;
     transition: border-radius 2s;    
   }
-
-  @keyframes .ex-3-square {
-    50% {
-        border-radius: 50%
-    }
-  }
-
+ 
   /* Esercizio-4 */
 
   .ex-4-square:hover {
     opacity: 0%;
     transition: opacity 2s;
-  }
-
-  @keyframes .ex-4-square {
-    50% {
-        opacity: 50%;
-    }
-  }
+  } 
 
   /* Esercizio-5 */
 
@@ -75,4 +63,24 @@
     filter: grayscale(0.8) blur(5px);
     transition: 2s;
   }
+
+  /* Esercizio-8 */
+
+  .ex-8-img:hover {
+    border-radius: 30px;
+    transition: 3s;
+
+  }
+
+
+
+  /* Esercizio-9 */
+
+  /* Esercizio-10 */
+  
+  /* Esercizio-11 */
+
+  /* Esercizio-12 */
+
+  /* Esercizio-13 */
   
