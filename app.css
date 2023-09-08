@@ -61,3 +61,10 @@
         height: 80px;
     }
   }
+
+  /* Esercizio-6 */
+
+  .ex-6-img:hover {
+    filter: grayscale(1); 
+    transition: 2s;   
+  }
