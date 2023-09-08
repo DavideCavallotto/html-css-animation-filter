@@ -37,4 +37,27 @@
         opacity: 50%;
     }
   }
+
+  /* Esercizio-5 */
+
+  .ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+    transition: height 2s, width 2s;
+      
+  }
+
+  .ex-5-square:active {
+    width: 60px;
+    height: 60px;
+  }
   
+  @keyframes .ex-5-square {
+    50% {
+        width: 80px;              
+    }
+
+    50% {
+        height: 80px;
+    }
+  }
