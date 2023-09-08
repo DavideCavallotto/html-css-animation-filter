@@ -27,5 +27,14 @@
 
   /* Esercizio-4 */
 
-  
+  .ex-4-square:hover {
+    opacity: 0%;
+    transition: opacity 2s;
+  }
+
+  @keyframes .ex-4-square {
+    50% {
+        opacity: 50%;
+    }
+  }
   
